@@ -227,13 +227,7 @@
             
         }
         .down{
-            display: grid;
-            padding-top: 20px;
-            padding-left: 5px;
-            margin-right: 150px;
-            justify-content: space-between;
-            align-items: center;
-            scroll-behavior: smooth;
+            visibility: hidden;
             
         }
         .down h4 a{
@@ -259,13 +253,7 @@
             height: 50px;
         }
         .down{
-            display: flex;
-            padding-top: 20px;
-            padding-left: 5px;
-            margin-right: 120px;
-            justify-content: space-between;
-            align-items: center;
-            scroll-behavior: smooth;
+            visibility: hidden;
             
         }
         .down h4 a{
@@ -651,13 +639,7 @@
           
     }
     .blog .image{
-        position: absolute;
-        display: flex;
-        scroll-behavior: smooth;
         visibility: hidden;
-        height: 43%;
-        margin-top: 0px;
-        margin-left: 59%;
     }
     .mainText3 h2{
         font-size: 19px;
@@ -731,13 +713,7 @@
           
     }
     .blog .image{
-        position: absolute;
         visibility: hidden;
-        display: block;
-        scroll-behavior: smooth;
-        height: 40%;
-        margin-top: 0px;
-        margin-left: 62%;
     }
     .mainText3 h2{
         font-size: 17px;
@@ -812,13 +788,7 @@
       
 }
 .blog .image{
-    position: absolute;
     visibility: hidden;
-    display: block;
-    scroll-behavior: smooth;
-    height: 30%;
-    margin-top: 0px;
-    margin-left: 63%;
 }
 .mainText3 h2{
     font-size: 17px;
