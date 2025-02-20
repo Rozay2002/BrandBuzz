@@ -734,7 +734,6 @@
         position: absolute;
         display: flex;
         scroll-behavior: smooth;
-        width: 100px;
         height: 40%;
         margin-top: 0px;
         margin-left: 62%;
@@ -815,7 +814,6 @@
     position: absolute;
     display: flex;
     scroll-behavior: smooth;
-    width: 100px;
     height: 30%;
     margin-top: 0px;
     margin-left: 63%;
