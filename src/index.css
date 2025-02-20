@@ -732,7 +732,8 @@
     }
     .blog .image{
         position: absolute;
-        display: flex;
+        visibility: hidden;
+        display: block;
         scroll-behavior: smooth;
         height: 40%;
         margin-top: 0px;
@@ -812,7 +813,8 @@
 }
 .blog .image{
     position: absolute;
-    display: flex;
+    visibility: hidden;
+    display: block;
     scroll-behavior: smooth;
     height: 30%;
     margin-top: 0px;
