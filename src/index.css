@@ -654,7 +654,7 @@
         position: absolute;
         display: flex;
         scroll-behavior: smooth;
-        width: 100px;
+        visibility: hidden;
         height: 43%;
         margin-top: 0px;
         margin-left: 59%;
