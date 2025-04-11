@@ -12,9 +12,19 @@
     font-family: "Quicksand";
     color: #000000;
 }
+body{
+    font-family: "Quicksand";
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
 
 /*navbar*/
 .navbar{
+    position: fixed;
+    right: 0;
+    left: 0;
     padding: 20px 130px;
     display: flex;
     margin: 0 auto;
@@ -32,6 +42,7 @@
 
 .navbar .links{
     margin-left: auto;
+    
 }
 .navbar a{
     padding: 7px;
@@ -451,33 +462,19 @@
         font-size: 12px;
     }
     .card{
-        display: grid;
-        grid-column: repeat(4, 1fr);
+        display: flex;
+       flex-direction: column;
         width: auto;
-        padding-top: 30px;
+        padding: 30px 50px;
         justify-content: center;
         align-items: center;
         
     }
-    .card .c1{
-        grid-column: 1;
-        
-    }
-    .card .c2{
-        margin-top: 20px;
-        grid-column: 2;
-    }
-    .card .c3{
-        margin-top: 20px;
-        grid-column: 1;
-    }
-    .card .c4{
-        margin-top: 20px;
-        grid-column: 2;
-    }
-    .card h3{
-        font-size: 15px;
-    }
+    
+    
+    
+   
+    
     .card p{
         font-size: 12px;
     }
@@ -1542,8 +1539,8 @@
 }
 .card2{
     padding: 40px 130px;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+    display: flex;
+    flex-direction: column;
     scroll-behavior: smooth;
     justify-content: space-between;
 }
@@ -1568,7 +1565,7 @@
     flex-direction: column;
     align-items: center;
     grid-column: 1;
-    padding: 10px;
+    padding: 10px ;
     border-radius: 5px;
     border: 2px solid #ffff;
    background-color: white;
@@ -2026,6 +2023,7 @@
         scroll-behavior: smooth;
         justify-content: space-between;
         position: relative;
+       
     }
     
     .imgs  img{
@@ -2107,9 +2105,10 @@
         position: relative;
         top: 337%;
         left: 0;
-        z-index: 1;
+        z-index: -1;
         border: 2px;
         border-radius: 5px;
+        
     }
     .topContact h2{
         display: flex;
